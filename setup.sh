@@ -20,3 +20,7 @@ git config --global user.email "mohammed.al-essawi"
 git config --global init.defaultBranch main
 git config -- global pull.rebase true
 git config -- global fetch.rebase true
+
+# load GitHub CLI
+sudo apt update
+sudo apt install gh -y
